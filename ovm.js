@@ -28,13 +28,22 @@ function wait(ms){
         setTimeout(resolve, ms);
     });
 }
-async function main() {
-    await wait(2000);
-    console.log("2 second have passed");   
-};
-main();
+// async function main() {
+    // await wait(2000);
+    // console.log("2 second have passed");   
+// };
+// main();
 
 
 // wait (2000).then (()=>{ 
     // console.log('2second have passed.')
 // });
+async function name(challenge) {
+    
+if(life.difficulty == HARD){
+    let challenge = life.situation
+
+    await accept(challenge)
+    overcome(challenge)
+}
+}
